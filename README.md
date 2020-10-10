@@ -1,1 +1,2 @@
 # TwoSampleMR
+# Run TwoSampleMR package
