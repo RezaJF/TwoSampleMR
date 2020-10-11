@@ -127,3 +127,4 @@ write.table(dat, paste0(outdir,"/",basename(gsub("_clumped.txt$","_",opt$exposur
 
 #write.table(dat, paste0(outdir,"/",basename(gsub("_clumped.txt$","_",opt$exposure)), basename(gsub(".txt.gz$","_harmonised.txt",opt$outcome))), sep = "\t", quote=F, col.names = TRUE, row.names = FALSE)
 
+"done step 2"
