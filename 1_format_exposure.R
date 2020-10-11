@@ -99,4 +99,4 @@ head(file)
 file <- clump_data(file) # (remove SNPs -  R2 greater than 0.001)
 write.table(file, paste0(output,"/",opt$Phenotype, "_clumped.txt"), sep = "\t", quote=F, col.names = TRUE, row.names = FALSE)
 
-
+"done step 1"
